@@ -13,5 +13,9 @@
 
 # Load Balancer
 This will create multiple instances running on consecutive ports and the main port will re-route the incoming requests to different worker instances using round-robin method and the state of database will remain consistent between different workers!
+eg. 
+- On `localhost:4000/api` load balancer is listening for requests
+- On `localhost:4001/api`, `localhost:4002/api`, `localhost:4003/api`, `localhost:4004/api` workers are listening for requests from load balancer
+
 
 Note- Since in-memory database is used, restarting will cause data loss.
