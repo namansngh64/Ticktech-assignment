@@ -1,0 +1,28 @@
+{
+  "name": "ticktech-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000",
+    "start:dev": "nodemon index.js",
+    "start:prod": "node index.js",
+    "start:multi": "node multi_index.js"
+  },
+  "author": "Naman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongodb-memory-server": "^8.12.2",
+    "mongoose": "^6.8.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
