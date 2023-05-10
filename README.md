@@ -1,5 +1,7 @@
 # Ticktech-assignment
 
+Assignment link - https://docs.google.com/document/d/1WBGBD-HF_QHKgYC38hb7-pteO7v6I7_sB8O68Us_NhM/edit
+
 # This is a simple CRUD API using in-memory mongodb and a custom load-balancer (using nodejs 'cluster' api)
 
 # First run ----- npm i ------ to install all the dependencies
